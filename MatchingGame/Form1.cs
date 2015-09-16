@@ -181,7 +181,7 @@ namespace MatchingGame
             //the timer ticks once every second. every tick, the time left var is reduced by 1
             timeLeft = timeLeft - 1;
             timeLable.Text = timeLeft.ToString() + ": seconds left";
-            //when time left = 0, the game is over
+            //when time left = 0, the game is over.
             if (timeLeft == 0)
             {
                 timer2.Stop();
