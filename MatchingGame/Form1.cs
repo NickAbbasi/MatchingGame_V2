@@ -13,7 +13,7 @@ namespace MatchingGame
     public partial class Form1 : Form
     {
 
-
+        //creating random numbers
         Random random = new Random();
         List<string> icons = new List<string>()
         {
